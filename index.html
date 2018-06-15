@@ -1,8 +1,6 @@
 <!doctype>
 <html>
 	<head>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.5/paper-full.min.js"></script>
-		<script type="text/paperscript" canvas="racemans-canvas" src="drawing.js"></script>
 		<style>
 			canvas {
 				width: 100%;
@@ -10,11 +8,14 @@
 			}
 			body {
 				margin: 0;
+        background-color: #000;
 			}
 		</style>
 	</head>
 	<body>
-		<canvas id="racemans-canvas" resize style="width: 100%; height: 100%;">
+		<canvas id="recamans-canvas" resize>
 		</canvas>
+		<script src="./canvas.js"></script>
+		<script src="./sound.js"></script>
 	</body>
 </html>
